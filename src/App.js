@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import HomeDisplay from './pages/home/home.js'
+import MessagingDisplay from './pages/messaging/messaging.js'
+import PremiumDisplay from './pages/premium/premium.js'
+import ProfileDisplay from './pages/profile/profile.js'
+import SupportDisplay from './pages/support/support.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path='/'>
+            <HomeDisplay />
+          </Route>
+          <Route exact path='/profile'>
+            <ProfileDisplay />
+          </Route>
+          <Route exact path='/support'>
+            <SupportDisplay />
+          </Route>
+          <Route path='/messaging'>
+            <MessagingDisplay />
+          </Route>
+          <Route path='/premium'>
+            <PremiumDisplay />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

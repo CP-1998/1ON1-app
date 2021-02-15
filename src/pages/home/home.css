@@ -1,0 +1,34 @@
+#colorBackground {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(70%);
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#pageContent {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  filter: brightness(100%);
+}
+
+p {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 30px;
+}

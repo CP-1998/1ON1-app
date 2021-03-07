@@ -9,11 +9,14 @@ function HomeDisplay() {
     <div id='bodyDiv'>
       <img src={BackgroundPhoto} alt='background.jpg' id='colorBackground'></img>
       <animated.div id='pageContent' style={props}>
-        <h1>1/1</h1>
+        <hr></hr>
+        <h1 id="headerText">1/1</h1>
+        <hr></hr>
         <p>Bridging the gap</p>
         <p>between learners</p>
         <p>and professionals</p>
-        <Button color='info'>Sign Up</Button>
+        <hr></hr>
+        <Button color='success' href="/dashboard">Sign Up</Button>
       </animated.div>
     </div>
   );

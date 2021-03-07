@@ -10,10 +10,10 @@
   filter: brightness(70%);
 }
 
-h1 {
+#headerText {
   font-family: 'Bungee Shade', cursive;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 #pageContent {
@@ -31,4 +31,12 @@ h1 {
 p {
   font-family: 'Bungee Shade', cursive;
   font-size: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  font-family: 'Bungee Shade', cursive;
+  width: 600px;
+  color: black !important;
+  font-weight: bold;
 }

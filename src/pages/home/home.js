@@ -16,7 +16,8 @@ function HomeDisplay() {
         <p>between learners</p>
         <p>and professionals</p>
         <hr></hr>
-        <Button color='success' href="/dashboard">Sign Up</Button>
+        <Button color='success' href="/signUp" style={{ marginTop: '20px', fontSize: '25px' }}>Sign Up</Button>
+        <Button color='info' href="/signIn" style={{ marginTop: '20px', fontSize: '25px' }}>Sign In</Button>
       </animated.div>
     </div>
   );

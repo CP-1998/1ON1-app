@@ -4,6 +4,8 @@ import MessagingDisplay from './pages/messaging/messaging.js'
 import PremiumDisplay from './pages/premium/premium.js'
 import ProfileDisplay from './pages/profile/profile.js'
 import SupportDisplay from './pages/support/support.js'
+import SignUp from './pages/signUp/signUp.js'
+
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route path='/premium'>
             <PremiumDisplay />
+          </Route>
+          <Route path="/signUp">
+            <SignUp />
           </Route>
         </Switch>
       </div>

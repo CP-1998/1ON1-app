@@ -1,0 +1,29 @@
+.contentCol {
+  float: none;
+  margin-bottom: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardTitle {
+  font-family: 'Bungee Shade', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+}
+
+#inputGroup-sizing-default {
+  font-weight: bold;
+  font-family: 'Bungee Shade', cursive;
+  color: #000000;
+}
+
+.form-check {
+  font-weight: bold;
+  margin-top: 15px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 20px;
+}

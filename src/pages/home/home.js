@@ -23,8 +23,9 @@ function HomeDisplay() {
         <p>between learners</p>
         <p>and professionals</p>
         <hr></hr>
-        <Button color='success' href="/signUp" style={{ marginTop: '20px', fontSize: '25px' }}>Sign Up</Button>
-        <Button color='info' href="/signIn" style={{ marginTop: '20px', fontSize: '25px' }}>Sign In</Button>
+        <Button color='success' href="./#/signUp" style={{ marginTop: '20px', fontSize: '25px' }}>Sign Up</Button>
+        <Button color='info' href="./#/signIn" style={{ marginTop: '20px', fontSize: '25px' }}>Sign In</Button>
+        <hr></hr>
         <br></br>
         <div class="row justify-content-md-center">
           <img src={TwitterPhoto} alt="twitter.png" class="socialPhoto"></img>
@@ -32,8 +33,8 @@ function HomeDisplay() {
           <img src={FacebookPhoto} alt="facebook.png" class="socialPhoto"></img>
           <img src={LinkedinPhoto} alt="linkedin.png" class="socialPhoto"></img>
           <img src={YoutuePhoto} alt="youtube.png" class="socialPhoto"></img>
-          <img src={GithubPhoto} alt="discord.png" class="socialPhoto"></img>
-
+          <img src={GithubPhoto} alt="github.png" class="socialPhoto"></img>
+          <img src={DiscordPhoto} alt="discord.png" class="socialPhoto"></img>
         </div>
 
       </animated.div>

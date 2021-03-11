@@ -27,14 +27,14 @@ function HomeDisplay() {
         <Button color='info' href="./#/signIn" style={{ marginTop: '20px', fontSize: '25px' }}>Sign In</Button>
         <hr></hr>
         <br></br>
-        <div class="row justify-content-md-center">
-          <img src={TwitterPhoto} alt="twitter.png" class="socialPhoto"></img>
-          <img src={InstagramPhoto} alt="instagram.png" class="socialPhoto"></img>
-          <img src={FacebookPhoto} alt="facebook.png" class="socialPhoto"></img>
-          <img src={LinkedinPhoto} alt="linkedin.png" class="socialPhoto"></img>
-          <img src={YoutuePhoto} alt="youtube.png" class="socialPhoto"></img>
-          <img src={GithubPhoto} alt="github.png" class="socialPhoto"></img>
-          <img src={DiscordPhoto} alt="discord.png" class="socialPhoto"></img>
+        <div className="row justify-content-md-center">
+          <img src={TwitterPhoto} alt="twitter.png" className="socialPhoto"></img>
+          <img src={InstagramPhoto} alt="instagram.png" className="socialPhoto"></img>
+          <img src={FacebookPhoto} alt="facebook.png" className="socialPhoto"></img>
+          <img src={LinkedinPhoto} alt="linkedin.png" className="socialPhoto"></img>
+          <img src={YoutuePhoto} alt="youtube.png" className="socialPhoto"></img>
+          <img src={GithubPhoto} alt="github.png" className="socialPhoto"></img>
+          <img src={DiscordPhoto} alt="discord.png" className="socialPhoto"></img>
         </div>
 
       </animated.div>

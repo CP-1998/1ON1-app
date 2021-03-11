@@ -1,25 +1,12 @@
+import './signInCard.css'
 import { Card, CardBody, CardTitle, Button } from 'reactstrap'
-import './strapCard.css'
 
-function StrapCard() {
+function SignInCard() {
   return (
-
     <Card className="contentCol" sm="6">
       <CardBody>
-        <CardTitle className="cardTitle">Sign Up</CardTitle>
+        <CardTitle className="cardTitle">Sign In</CardTitle>
         <hr></hr>
-        <div className="input-group mb-3">
-          <div className="input-group-prepend">
-            <span className="input-group-text" id="inputGroup-sizing-default">First Name</span>
-          </div>
-          <input type="text" className="form-control" aria-label="First Name" aria-describedby="inputGroup-sizing-default" />
-        </div>
-        <div className="input-group mb-3">
-          <div className="input-group-prepend">
-            <span className="input-group-text" id="inputGroup-sizing-default">Last Name</span>
-          </div>
-          <input type="text" className="form-control" aria-label="Last Name" aria-describedby="inputGroup-sizing-default" />
-        </div>
         <div className="input-group mb-3">
           <div className="input-group-prepend">
             <span className="input-group-text" id="inputGroup-sizing-default">Email</span>
@@ -44,6 +31,6 @@ function StrapCard() {
       </CardBody>
     </Card>
   )
-}
+};
 
-export default StrapCard;
+export default SignInCard;

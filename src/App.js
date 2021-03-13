@@ -6,6 +6,7 @@ import ProfileDisplay from './pages/profile/profile.js'
 import SupportDisplay from './pages/support/support.js'
 import SignUp from './pages/signUp/signUp.js'
 import SignIn from './pages/signIn/signIn.js'
+import DashboardNewUser from './pages/dashboardNewUser/dashboardNewUser.js'
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/signIn">
             <SignIn />
+          </Route>
+          <Route path="/dashboardNewUser">
+            <DashboardNewUser />
           </Route>
         </Switch>
       </div>

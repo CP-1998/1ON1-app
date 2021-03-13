@@ -20,7 +20,7 @@ function SignInCard() {
           <input type="password" className="form-control" aria-label="Password" aria-describedby="inputGroup-sizing-default" />
         </div>
         <hr></hr>
-        <Button color="success" style={{ marginTop: '20px', fontSize: '25px' }}>Submit</Button>
+        <Button color="success" style={{ marginTop: '20px', fontSize: '25px' }} href="./#/dashboardNewUser">Submit</Button>
         <Button color="danger" style={{ marginTop: '20px', fontSize: '25px' }} href="./#/">return</Button>
         <div className="form-check">
           <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />

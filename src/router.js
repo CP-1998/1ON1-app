@@ -10,7 +10,7 @@ import DashboardNewUser from './pages/dashboardNewUser/dashboardNewUser.js'
 import Dashboard from './pages/dashboard/dashboard.js'
 
 
-function App() {
+function RouterNode() {
   return (
     <Router>
       <div>
@@ -48,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default RouterNode;

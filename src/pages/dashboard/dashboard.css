@@ -1,0 +1,12 @@
+#colorBackground {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(70%);
+  overflow: hidden;
+}

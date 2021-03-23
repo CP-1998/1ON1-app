@@ -33,7 +33,7 @@
     animation: triangleSpin infinite 20s linear;
     height: 50%;
     width: 75%;
-    margin-top: 50px;
+    margin-top: 0px;
     opacity: 100%;
   }
 }
@@ -41,6 +41,6 @@
 #textDiv {
   z-index: 10000;
   position: absolute;
-  top: 260px;
+  top: 210px;
   margin-left: 393px;
 }

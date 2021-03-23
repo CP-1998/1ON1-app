@@ -14,13 +14,15 @@ function DashboardNewUser() {
       <img src={BackgroundPhoto} alt='background.jpg' id='colorBackground'></img>
       <animated.div id='pageContent' style={props}>
         <img src={OctaPhoto} alt="triangle.png" style={otherProps} className="triangleImg"></img>
-        <div id="textDiv">
-          <p>Click</p>
-          <p>Here</p>
-          <p>To</p>
-          <p>Get</p>
-          <p>Started</p>
-        </div>
+        <a href='./#/dashboard'>
+          <div id="textDiv">
+            <p>Click</p>
+            <p>Here</p>
+            <p>To</p>
+            <p>Get</p>
+            <p>Started</p>
+          </div>
+        </a>
       </animated.div>
     </div>
   )

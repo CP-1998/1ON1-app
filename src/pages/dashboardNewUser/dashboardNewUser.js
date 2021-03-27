@@ -8,12 +8,11 @@ import './dashboardNewUser.css'
 
 function DashboardNewUser() {
   const props = useSpring({ opacity: 1, from: { opacity: 0 } });
-  const otherProps = useSpring({ opacity: 1, from: { opacity: 0 }, delay: 5000 });
   return (
     <div>
       <img src={BackgroundPhoto} alt='background.jpg' id='colorBackground'></img>
       <animated.div id='pageContent' style={props}>
-        <img src={OctaPhoto} alt="triangle.png" style={otherProps} className="triangleImg"></img>
+        <img src={OctaPhoto} alt="triangle.png" className="triangleImg"></img>
         <a href='./#/dashboard'>
           <div id="textDiv">
             <p>Click</p>

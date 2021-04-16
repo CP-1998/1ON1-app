@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import './dashDrawer.css';
 
 function DashDrawer() {
   const drawerWidth = 240;
@@ -20,11 +21,11 @@ function DashDrawer() {
     },
     drawer: {
       width: drawerWidth,
-      flexShrink: 0,
-      background: "#379b73"
+      flexShrink: 0
     },
     drawerPaper: {
       width: drawerWidth,
+      backgroundColor: "#3b0c8c"
     },
     // necessary for content to be below app bar
     toolbar: theme.mixins.toolbar,
@@ -36,6 +37,7 @@ function DashDrawer() {
   }));
 
   const classes = useStyles();
+
   return (
     <Drawer
       className={classes.drawer}
@@ -45,7 +47,7 @@ function DashDrawer() {
       }}
       anchor="left">
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+        {['Inbox', 'Starred', 'Send message', 'Drafts'].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
             <ListItemText primary={text} />
